@@ -1,7 +1,7 @@
+// @ts-ignore: allow importing global CSS without explicit type declarations
 import "./globals.css";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Participants App",
   description: "Fullstack technical assignment",
 };
