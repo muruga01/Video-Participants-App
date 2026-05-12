@@ -1,0 +1,231 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #111827;
+}
+
+body {
+  min-height: 100vh;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.pageHeader {
+  margin-bottom: 20px;
+}
+
+.pageHeader h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+.subtext {
+  margin: 0;
+  color: #4b5563;
+}
+
+.searchWrapper {
+  margin: 20px 0 24px;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 420px;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 16px;
+  gap: 16px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.videoPreview {
+  margin-bottom: 16px;
+}
+
+.videoPlaceholder {
+  height: 170px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #dbeafe, #cbd5e1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.videoPlaceholder.off {
+  background: #e5e7eb;
+  color: #6b7280;
+}
+
+.participantHeader {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 9999px;
+  background: #1d4ed8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.avatarImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.participantInfo {
+  min-width: 0;
+}
+
+.participantName {
+  margin: 0 0 4px;
+  font-size: 18px;
+}
+
+.participantRole {
+  margin: 0 0 8px;
+  color: #6b7280;
+}
+
+.status {
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.status.online {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status.offline {
+  background: #e5e7eb;
+  color: #4b5563;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.actions button,
+.modalCard button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.actions button:disabled,
+.modalCard button:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+}
+
+.infoText {
+  color: #374151;
+}
+
+.errorText {
+  color: #b91c1c;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modalCard {
+  width: 100%;
+  max-width: 560px;
+  background: white;
+  border-radius: 18px;
+  padding: 24px;
+}
+
+.modalPreview {
+  height: 220px;
+  border-radius: 14px;
+  background: #dbeafe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+.detailGrid p {
+  margin: 8px 0;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 16px;
+  }
+
+  .pageHeader h1 {
+    font-size: 26px;
+  }
+
+  .videoPlaceholder {
+    height: 150px;
+  }
+
+  .modalPreview {
+    height: 180px;
+  }
+}
